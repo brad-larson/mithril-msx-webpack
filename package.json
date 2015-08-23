@@ -35,7 +35,7 @@
     "imports-loader": "^0.6.4",
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
-    "mithril": "^0.2.0",
+    "mithril": "git://github.com/gfiuza/msx-loader.git#249fd3c5fc4590da737dcac5081bfb4356345ce",
     "msx-loader": "^0.2.0",
     "node-libs-browser": "^0.5.2",
     "raw-loader": "^0.5.1",
@@ -44,7 +44,12 @@
     "webpack-dev-server": "^1.9.0"
   },
   "dependencies": {
+    "bootstrap": "^3.3.5",
+    "classnames": "^2.1.3",
+    "highlight.js": "^8.7.0",
+    "json-loader": "^0.5.2",
     "node-polyglot": "^0.4.1",
-    "swig": "^1.4.2"
+    "swig": "^1.4.2",
+    "underscore": "^1.8.3"
   }
 }

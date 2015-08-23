@@ -7,6 +7,6 @@ m.route.mode = "hash";
 
 m.route(document.getElementById("content-container"), "/", {
   "/": require('bundles/home/home.jsx'),
-  "/account/signin": require('bundles/account/signin.jsx'),
-  "/account/signup": require('bundles/account/signup.jsx'),
+  "/example/:name": require('bundles/example/00_show.jsx'),
+  "/slide/:name": require('bundles/slide/00_show.jsx'),
 });

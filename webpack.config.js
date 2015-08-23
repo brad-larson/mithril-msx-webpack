@@ -27,6 +27,7 @@ var config = {
   module: {
     loaders: [
       { test: /\.jsx/, loader: "msx-loader" },
+      { test: /\.json/, loader: "json-loader" },
       { test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader" + lessSourceMap) },
       { test: /\.less$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader" + lessSourceMap+"!less-loader") },
 
