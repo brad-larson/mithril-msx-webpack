@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block title %}Mithril.js Examples{% endblock %}
+
+{% block content %}
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript" src="{{cdn}}/vendor-{{digest}}.js" charset="utf-8"></script>
+<script type="text/javascript" src="{{cdn}}/home-{{digest}}.js" charset="utf-8"></script>
+{% endblock %}
+
+{% block head %}
+<link href="{{cdn}}/home-{{digest}}.css" media="all" rel="stylesheet" type="text/css" />
+{% endblock %}
+

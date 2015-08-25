@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block title %}My Page{% endblock %}
+
+{% block content %}
+<p>mobile page.</p>
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript" src="{{cdn}}/vendor-{{digest}}.js" charset="utf-8"></script>
+<script type="text/javascript" src="{{cdn}}/mobile-{{digest}}.js" charset="utf-8"></script>
+{% endblock %}
+
+{% block head %}
+<link href="{{cdn}}/mobile-{{digest}}.css" media="all" rel="stylesheet" type="text/css" />
+{% endblock %}
+

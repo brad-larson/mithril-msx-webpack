@@ -1,0 +1,35 @@
+/* Header */
+.masthead {
+  position: relative;
+  padding: 5rem 0 4rem;
+  font-weight: 300;
+  color: @cyan-50;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+
+  background-color: @cyan;
+  #gradient > .vertical(@start-color: @cyan-800; @end-color: @cyan-600);
+  background-repeat: repeat-x;
+  margin-bottom: 40px;
+}
+.masthead a,
+.masthead h1 {
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+.masthead p {
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+.masthead h1 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 5.25rem;
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    padding: 5rem 0 4rem;
+  }
+}
+
