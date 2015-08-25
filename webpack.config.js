@@ -5,7 +5,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var StaticHtmlWebpackPlugin = require('./lib/static-html-webpack-plugin/index');
 
 var lessSourceMap = (env != "production") ? "?sourceMap" : "";
-var cdn = (env == "production") ? "//your-cdn-host.com" : "";
+var cdn = (env == "production") ? "." : ""; // add //your-cdn-host.com when production
 var hash = (env == "production") ? "[hash]" : "bundle";
 var templateParams = {env: env, hash: hash, cdn: cdn};
 

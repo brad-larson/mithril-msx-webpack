@@ -51,7 +51,7 @@ Thumbs.db
 tmp/
 
 # output folder.
-public/
+# public/
 
 # Bower stuff.
 bower_components/
