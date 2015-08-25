@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --inline --hot --colors --port 3333",
-    "build": "./node_modules/webpack/bin/webpack.js --build-production --progress --colors --display-error-details",
+    "build": "rm -rf public/* && ./node_modules/webpack/bin/webpack.js --build-production --progress --colors --display-error-details",
     "test": "NODE_PATH=`pwd`/app ./node_modules/mocha/bin/mocha test/ --recursive"
   },
   "repository": {
